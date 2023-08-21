@@ -1,16 +1,37 @@
-import { Button, Text } from "@kuma-ui/core";
-// import { Button, Text } from "../../kuma-ui/packages/core/src";
+import { Box, Button, Text } from "@kuma-ui/core";
+import OuterBtn from "../Outer";
+// import { Box, Button, Text } from "../../kuma-ui/packages/core/dist/index";
+// import { Box, Button, Text } from "../../kuma-ui/packages/core/src/index";
+
+// const responsiveStyles = css`
+//   @media (max-width: sm) {
+//     background: blue;
+//   }
+// `;
 
 export default function App() {
   return (
-    <main>
-      <Text textAlign={"center"} color="blue" fontSize="16px" fontWeight="bold">
+    <Box>
+      <Text
+        textAlign={"center"}
+        fontSize="16px"
+        fontWeight="bold"
+        textDecoration={"underline"}
+        color={"colors.primary"}
+      >
         Hello world
       </Text>
-      <Text textAlign={"center"} color="blue" fontSize="16px" fontWeight="bold">
+      <Text
+        textAlign={"center"}
+        fontSize="16px"
+        fontWeight="bold"
+        mt={19}
+        color={"colors.secondary"}
+      >
         Hello world
       </Text>
-      <Button>Button</Button>
-    </main>
+      <Button bg={"colors.primary"}>Button</Button>
+      <OuterBtn />
+    </Box>
   );
 }

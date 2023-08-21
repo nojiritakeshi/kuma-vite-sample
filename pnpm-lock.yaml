@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@kuma-ui/vite':
-    specifier: ^1.0.6
-    version: 1.0.6(@types/react@18.2.15)(react@18.2.0)
+    specifier: ^1.0.4
+    version: 1.0.4(@types/react@18.2.15)(react@18.2.0)
   '@types/react':
     specifier: ^18.2.15
     version: 18.2.15
@@ -633,8 +633,8 @@ packages:
       '@kuma-ui/sheet': 1.0.1
       csstype: 3.1.2
 
-  /@kuma-ui/vite@1.0.6(@types/react@18.2.15)(react@18.2.0):
-    resolution: {integrity: sha512-oDpzmfDir9LdHRuSgwj4+eqTfua9i0WW3nHWZNnhK9Syf8ji5tSqR9QWvirHfnYEOdntL74ph+b/WXneb2QEhA==}
+  /@kuma-ui/vite@1.0.4(@types/react@18.2.15)(react@18.2.0):
+    resolution: {integrity: sha512-g0UWWteJLt7GNpzW7R1sNuSpQiV2+5Uf0D7NeRS9I8ByoFoV+RPYsKkQ9N6WgwHwS0VelmjOf2hJJMk2oYSWGQ==}
     dependencies:
       '@kuma-ui/babel-plugin': 1.1.2(@types/react@18.2.15)(react@18.2.0)
       '@kuma-ui/sheet': 1.0.1
