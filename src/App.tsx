@@ -1,4 +1,4 @@
-import { Box, Button, Text } from "@kuma-ui/core";
+import { Box, Button, Spacer, Text } from "@kuma-ui/core";
 import OuterBtn from "../Outer";
 // import { Box, Button, Text } from "../../kuma-ui/packages/core/dist/index";
 // import { Box, Button, Text } from "../../kuma-ui/packages/core/src/index";
@@ -11,13 +11,15 @@ import OuterBtn from "../Outer";
 
 export default function App() {
   return (
-    <Box>
+    <Box color="white">
       <Text
         textAlign={"center"}
-        fontSize="16px"
-        fontWeight="bold"
+        fontSize={"fontSizes.sm"}
+        fontWeight={"fontWeights.sm"}
         textDecoration={"underline"}
         color={"colors.primary"}
+        fontFamily={"fonts.body"}
+        mt={"spacings.sm"}
       >
         Hello world
       </Text>
@@ -25,11 +27,15 @@ export default function App() {
         textAlign={"center"}
         fontSize="16px"
         fontWeight="bold"
+        lineHeight={"lineHeights.sm"}
         mt={19}
         color={"colors.secondary"}
       >
         Hello world
       </Text>
+      <Spacer grid={"inherit"} horizontal={true} />
+      <Text color={"colors.test"}>Test text</Text>
+      <Text color={"colors.sub"}>Sub text</Text>
       <Button bg={"colors.primary"}>Button</Button>
       <OuterBtn />
     </Box>
