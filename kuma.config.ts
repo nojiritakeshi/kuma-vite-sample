@@ -1,16 +1,16 @@
-// import { createTheme } from "@kuma-ui/core";
-import { createTheme } from "../kuma-ui/packages/core/src/theme";
+import { createTheme } from "@kuma-ui/core";
+// import { createTheme } from "../kuma-ui/packages/core/src/theme";
 
 const theme = createTheme({
   colors: {
     red: {
       100: "#102010",
     },
-    primary: "#102010", // 藍色
+    primary: "blue", // 藍色
     blue: "blue",
     secondary: "#102010", // 藍色
-    test: "yellow",
-    sub: "#305081",
+    test: "red",
+    sub: "#776644",
   },
   breakpoints: {
     sm: "500px",
@@ -28,7 +28,7 @@ const theme = createTheme({
     sm: "10px",
   },
   spacings: {
-    sm: "110px",
+    sm: "300px",
     1: "0.25rem",
     4: "1rem",
   },
